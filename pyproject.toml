@@ -1,0 +1,29 @@
+[project]
+name = "shark_tkinter_lib"
+version = "1.0.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Magnus Wenzer", email = "nodc@smhi.se"},
+]
+dependencies = [
+    "numpy>=1.26.4",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mypkg = ["."]
+
+
