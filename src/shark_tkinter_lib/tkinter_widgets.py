@@ -6,10 +6,7 @@ import datetime
 import logging
 import re
 import tkinter as tk
-import tkinter as tk
 from tkinter import font
-from tkinter import font
-from tkinter import ttk
 from tkinter import ttk
 
 import numpy as np
@@ -19,11 +16,11 @@ try:
 except:
     pass
 
-try:
-    from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
-    import matplotlib.dates as dates
-except:
-    pass
+# try:
+#     from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
+#     import matplotlib.dates as dates
+# except:
+#     pass
 
 logger = logging.getLogger(__name__)
 
