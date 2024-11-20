@@ -952,6 +952,9 @@ class EntryWidget(tk.Entry):
                 return np.nan
         else:
             return value
+
+    def set_value(self, value):
+        self.stringvar.set(str(value))
     
     #===========================================================================
     def set_return_direction(self, direction='vertical'):
