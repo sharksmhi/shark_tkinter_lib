@@ -1,6 +1,6 @@
 [project]
 name = "shark_tkinter_lib"
-version = "1.0.0"
+version = "1.1.0"
 description = "Default template for PDM package"
 authors = [
     {name = "Magnus Wenzer", email = "nodc@smhi.se"},
